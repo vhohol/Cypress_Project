@@ -37,6 +37,7 @@
 //     cy.get('a[id="collapse-sidebar"][href="#"]')
 //     });
 
+// Comment
 
 it('Using Get with Find and Eq', () =>{
      cy.visit("https://next.privat24.ua/deposit/open")
