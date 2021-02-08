@@ -1,41 +1,41 @@
-/// <reference types="Cypress" />
+ <reference types="Cypress" />
 
 
 
-// it('By ID', () =>{
-// cy.visit("http://www.facebook.com/")
-// cy.get("#email")
-// })
+it('By ID', () =>{
+cy.visit("http://www.facebook.com/")
+cy.get("#email")
+})
 
-// it('By ID', () =>{
-//     cy.visit("http://www.facebook.com/")
-//     cy.get("#email")
-//     });
+it('By ID', () =>{
+    cy.visit("http://www.facebook.com/")
+    cy.get("#email")
+    });
 
-// it('By Class', () =>{
-//     cy.visit("https://docs.cypress.io/api/commands/document.html#Syntax")
-//     cy.get(".ds-input")
-//     });
+it('By Class', () =>{
+    cy.visit("https://docs.cypress.io/api/commands/document.html#Syntax")
+    cy.get(".ds-input")
+    });
 
-// it('By Class', () =>{
-//     cy.visit("https://docs.cypress.io/api/commands/document.html#Syntax")
-//     cy.get("nav")
-//     });
+it('By Class', () =>{
+    cy.visit("https://docs.cypress.io/api/commands/document.html#Syntax")
+    cy.get("nav")
+    });
 
-// it('By Tag value', () =>{
-//     cy.visit("http://www.facebook.com/")
-//     cy.get('[name="pass"]')
-//     });
+it('By Tag value', () =>{
+    cy.visit("http://www.facebook.com/")
+    cy.get('[name="pass"]')
+    });
 
-// it.only('By Tag value', () =>{
-//     cy.visit("http://www.facebook.com/")
-//     cy.get('[role="button"][data-testid="open-registration-form-button"]')
-//     });
+it.only('By Tag value', () =>{
+    cy.visit("http://www.facebook.com/")
+    cy.get('[role="button"][data-testid="open-registration-form-button"]')
+    });
 
-// it.only('By Different Types', () =>{
-//     cy.visit("https://docs.cypress.io/api/commands/document.html#Syntax")
-//     cy.get('a[id="collapse-sidebar"][href="#"]')
-//     });
+it.only('By Different Types', () =>{
+    cy.visit("https://docs.cypress.io/api/commands/document.html#Syntax")
+    cy.get('a[id="collapse-sidebar"][href="#"]')
+    });
 
 // Comment
 
